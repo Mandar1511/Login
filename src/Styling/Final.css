@@ -1,0 +1,152 @@
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    border-color: #0C21C1;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #0C21C1;
+    padding: 12px 100px 12px 100px;
+    text-decoration: none;
+}
+.register_here{
+    color: #0C21C1;
+    font-weight: bold;
+    text-decoration: none;
+}
+.forgot{
+    text-decoration: none;
+    color:#4D4D4D;
+}
+
+@media (max-width:576px){
+    .div2{
+        display: none;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .your_logo{
+        padding-bottom: 2.5rem;
+        position: relative;
+        right:6rem;
+    }
+    body{
+        font-size: 0.95rem;
+    }
+    #sign-in{
+        padding-bottom: 1rem;
+    }
+    #email{
+        margin-top: 1.5rem;
+        color:#999999;
+    }
+    #pass{
+        margin-top: 2.5rem;
+        margin-bottom: -0.8rem;
+    }
+    #logo{
+        margin-bottom: 2rem;
+    }
+    .muipass{
+        position: relative;
+        right:0.5rem;
+    }
+    .checkbox{
+        position: relative;
+        right:0.2rem;
+    }
+    .forgot{
+        position: relative;
+        left:0.7rem;
+    }
+    .btn{
+        position: relative;
+        left:1.1rem;
+    }
+    .conti{
+        margin-top: 1rem;
+        position: relative;
+        left:5.2rem;
+    }
+    .comimages{
+        margin-top: 1rem;
+        position: relative;
+        left:4rem;
+    }
+}
+
+@media (min-width: 576px){
+    #logo{
+        margin-top: 1rem;
+        margin-left: 2.5rem;
+        margin-bottom: 4rem;
+    }
+    #sign-in{
+        margin-left:9rem;
+        margin-top: -1.8rem;
+    }
+    #p1{
+        margin-top: 1.5rem;
+        margin-left:9rem;
+    }
+    #p2{
+        margin-top: 0.5rem;
+        margin-left: 9rem;
+    }
+    #email{
+        margin-top: 4rem;
+        margin-left: 9rem;
+        color:#999999;
+    }
+    .box1{
+        margin-left: 9rem;
+    }
+    #pass{
+        margin-top: 2rem;
+        margin-left: 9rem;
+        color:#999999;
+    }
+    .muipass{
+        margin-left: 8.6rem;
+    }
+    .checkbox{
+        position: relative;
+        left:9rem;
+    }
+    .forgot{
+        margin-left: 13rem;
+    }
+    .btn{
+        padding: 12px 150px 12px 150px;
+        margin-left: 8.7rem;
+        margin-top: 0rem;
+    }
+    .conti{
+        margin-left: 16rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .comimages{
+        margin-left: 15rem;
+    }
+    .img1{
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 30px;
+    }
+    .main{
+        display: flex;
+    }
+    .div2{
+        height: 50%;
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 5rem;
+        margin-right: 7%;
+    }
+}
